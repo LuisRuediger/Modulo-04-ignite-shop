@@ -1,4 +1,4 @@
-import { styled } from "@/styles"
+import { styled } from '@/styles'
 
 const Button = styled('button', {
   backgroundColor: '$green300',
@@ -11,8 +11,8 @@ const Button = styled('button', {
   },
 
   '&:hover': {
-    filter: 'brightness(0.8)'
-  }
+    filter: 'brightness(0.8)',
+  },
 })
 
 export default function Home() {
